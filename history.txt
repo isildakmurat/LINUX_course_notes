@@ -1,0 +1,64 @@
+    1  clear
+    2  mkdir -p Lessons/{SDLS,HTML,Linux}
+    3  cd Lessons/SDLS
+    4  mkdir DevOps Waterfall
+    5  cd ..
+    6  cd Linux
+    7  mkdir CLI GUI
+    8  cd CLI
+    9  mkdir Commands
+   10  cd ../..
+   11  touch introduction.txt
+   12  cd SDLS
+   13  touch sdls.txt agile.txt
+   14  cd ..
+   15  cd HTML
+   16  touch html.txt cascades.css javascript.js
+   17  cd ..
+   18  cd Linux
+   19  touch operatingsys.txt
+   20  cd CLI
+   21  basic.txt advanced.txt
+   22  touch basic.txt advanced.txt
+   23  cd ..
+   24  cd GUI
+   25  touch ubuntu.txt debian.txt mint.txt red_hat.txt
+   26  cd ..
+   27  cd CLI
+   28  cd Commands
+   29  touch ls.txt ls_a.txt ls_l.txt ls_al.txt ls_c.txt ls_b.txt pwd.txt cd.txt cp.txt
+   30  cd ../../..
+   31  cd SDLC
+   32  cd SDLS
+   33  cd DevOps
+   34  touch Dev.txt Ops.txt
+   35  cd ..
+   36  cd Waterfall
+   37  touch basics.txt advanced.txt
+   38  cd ../..
+   39  echo "In an essay, article, or book, an introduction (also known as a prolegomenon) is a
+beginning section which states the purpose and goals of the following writing. This is
+echo "In an essay, article, or book, an introduction (also known as a prolegomenon) is a
+   40  beginning section which states the purpose and goals of the following writing. This is > introduction.txt
+   41  echo "In an essay, article..." > introduction.txt
+   42  echo "In an essay, article, or book, an introduction (also known as a prolegomenon) is a beginning section which states the purpose and goals of the following writing. This is generally followed by the body and conclusion." > introduction.txt
+   43  cd SDLS
+   44  echo "Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates." > sdls.txt
+   45  cd ..
+   46  cd HTML
+   47  echo "HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content." > html.txt
+   48  cd ..
+   49  cd Linux
+   50  echo "An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs." > operatingsys.txt
+   51  cd ..
+   52  rm -rf SDLS
+   53  cd Linux/CLI
+   54  rm -rf Commands
+   55  cd ../..
+   56  tree
+   57  cd ..
+   58  ls
+   59  ls -l
+   60  tree
+   61  history
+   62  history > history.txt
